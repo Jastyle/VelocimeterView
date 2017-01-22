@@ -2,4 +2,11 @@
 
 仪表盘控件
 
-![image](https://github.com/Jastyle/VelocimeterView/blob/master/752143722376116445.png)
+- **usage:**
+```
+mVelocimeterView.setCreditRank("信用极好");
+                mVelocimeterView.setReportTime("2017.1.21");
+                mVelocimeterView.setValue(890,true);
+```
+
+![image](https://github.com/Jastyle/VelocimeterView/blob/master/velocimeter1.gif)

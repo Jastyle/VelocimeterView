@@ -36,7 +36,7 @@ public class VelocimeterView extends View {
   private float nidleLastValue = min;
   private int max = 1000;
   private float value;
-  private int duration = 500;
+  private int duration = 1000;
   private long progressDelay = 250;
   private int margin = 15;
   private int insideProgressColor = Color.parseColor("#dadada");
@@ -148,7 +148,7 @@ public class VelocimeterView extends View {
    * Sets value.
    *
    * @param value   the value
-   * @param animate the animate
+   * @param animate the animate 是否开启动画
    */
   public void setValue(float value, boolean animate) {
     this.value = value;
